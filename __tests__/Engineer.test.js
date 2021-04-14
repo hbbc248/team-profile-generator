@@ -11,7 +11,12 @@ test("creates an Engineer object", () => {
     expect(engineer.role).toBe("Engineer")
 });
 
-test("gets employee role", () => {
+test("gets engineer github", () => {
+    const engineer = new Engineer("Ibrahim", 1, "ibrahimzerlin@hotmail.com", "hbbc248");
+    expect(engineer.getGithub()).toBe("hbbc248");
+});
+
+test("gets engineer role", () => {
     const engineer = new Engineer();
     expect(engineer.getRole()).toBe("Engineer");
 });
