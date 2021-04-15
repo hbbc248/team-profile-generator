@@ -29,7 +29,6 @@ const generateEngineers = engineersData => {
     `;
 };
 
-
 // create the interns section
 const generateInterns = internsData => {
     if (!internsData) {
