@@ -11,6 +11,13 @@ module.exports = fileContent => {
                 return;
             }
             // if everything went well, resolve the Promise and send the successful data to the `.then()` method
+            console.log(`
+            ***************************************************************
+            ********** YOUR TEAM PROFILE HTML HAS BEEN CREATED ************
+            ******* THANK YOU FOR USING TEAM PROFILE GENERATOR v1.0 *******
+            ********************* HAVE A GREAT DAY !***********************
+            ***************************************************************
+            `);
             resolve({
                 ok: true,
                 message: 'File created!'
